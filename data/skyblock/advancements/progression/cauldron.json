@@ -1,0 +1,28 @@
+{
+  "parent": "skyblock:progression/iron",
+  "display": {
+    "icon": {
+      "item": "minecraft:cauldron"
+    },
+    "title": {
+      "translate": "Pray for rain"
+    },
+    "description": {
+      "translate": "Craft a cauldron"
+    }
+  },
+  "criteria": {
+    "has_spruce_log": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:cauldron"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

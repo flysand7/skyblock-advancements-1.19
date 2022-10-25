@@ -1,0 +1,28 @@
+{
+  "parent": "skyblock:progression/water",
+  "display": {
+    "icon": {
+      "item": "minecraft:copper_ingot"
+    },
+    "title": {
+      "translate": "Get copper"
+    },
+    "description": {
+      "translate": "Obtain a piece of copper by killing a drowned"
+    }
+  },
+  "criteria": {
+    "has_spruce_log": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:copper_ingot"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

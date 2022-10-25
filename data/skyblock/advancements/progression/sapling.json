@@ -1,0 +1,28 @@
+{
+  "parent": "skyblock:progression/log",
+  "display": {
+    "icon": {
+      "item": "minecraft:spruce_sapling"
+    },
+    "title": {
+      "translate": "Team Trees"
+    },
+    "description": {
+      "translate": "Get a sapling to repopulate the trees"
+    }
+  },
+  "criteria": {
+    "has_spruce_sapling": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:spruce_sapling"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

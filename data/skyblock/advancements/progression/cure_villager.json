@@ -1,0 +1,19 @@
+{
+  "parent": "skyblock:progression/witch_boat",
+  "display": {
+    "icon": {
+      "item": "minecraft:bell"
+    },
+    "title": {
+      "translate": "Zombie Doctor"
+    },
+    "description": {
+      "translate": "Cure a Zombie Villager using a Weakness Potion thrown by a Witch"
+    }
+  },
+  "criteria": {
+    "cured_zombie_villager": {
+      "trigger": "minecraft:cured_zombie_villager"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "parent": "skyblock:progression/gold",
+  "display": {
+    "icon": {
+      "item": "minecraft:golden_apple"
+    },
+    "title": {
+      "translate": "Panacea"
+    },
+    "description": {
+      "translate": "Craft a golden apple"
+    }
+  },
+  "criteria": {
+    "has_spruce_log": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:golden_apple"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

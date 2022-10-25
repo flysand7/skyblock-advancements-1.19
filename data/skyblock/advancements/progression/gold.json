@@ -1,0 +1,28 @@
+{
+  "parent": "skyblock:progression/rod",
+  "display": {
+    "icon": {
+      "item": "minecraft:gold_ingot"
+    },
+    "title": {
+      "translate": "The gold rush"
+    },
+    "description": {
+      "translate": "Obtain gold by killing zombified piglin"
+    }
+  },
+  "criteria": {
+    "has_spruce_log": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:gold_ingot"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

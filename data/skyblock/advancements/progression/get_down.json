@@ -1,0 +1,34 @@
+{
+  "parent": "skyblock:progression/sapling",
+  "display": {
+    "icon": {
+      "item": "minecraft:bedrock"
+    },
+    "title": {
+      "translate": "Get down"
+    },
+    "description": {
+      "translate": "Mobs spawn faster at lower y-levels"
+    }
+  },
+  "criteria": {
+    "is_low": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "position": {
+                "y": {
+                  "max": -54
+                }
+              }
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "pack": {
+    "pack_format": 10,
+    "description": "Accompanying datapack to the Carpet Sky Additions mod"
+  },
+  "filter": {
+      "block": [
+          {
+              "namespace": "minecraft",
+              "path": "advancements/.*"
+          }
+      ]
+  }
+}

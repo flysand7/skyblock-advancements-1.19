@@ -1,0 +1,28 @@
+{
+  "parent": "skyblock:progression/kill_zombie",
+  "display": {
+    "icon": {
+      "item": "minecraft:iron_ingot"
+    },
+    "title": {
+      "translate": "Steal the hardware"
+    },
+    "description": {
+      "translate": "Get your first iron ingot"
+    }
+  },
+  "criteria": {
+    "has_spruce_log": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:iron_ingot"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

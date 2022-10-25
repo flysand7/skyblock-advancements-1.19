@@ -1,0 +1,28 @@
+{
+  "parent": "skyblock:progression/water",
+  "display": {
+    "icon": {
+      "item": "minecraft:sand"
+    },
+    "title": {
+      "translate": "Get sand"
+    },
+    "description": {
+      "translate": "Obtain a sand block by letting flowing water out of dead coral"
+    }
+  },
+  "criteria": {
+    "has_spruce_log": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:sand"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

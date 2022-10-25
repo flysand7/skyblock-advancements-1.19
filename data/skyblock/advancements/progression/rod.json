@@ -1,0 +1,28 @@
+{
+  "parent": "skyblock:progression/copper",
+  "display": {
+    "icon": {
+      "item": "minecraft:lightning_rod"
+    },
+    "title": {
+      "translate": "Zeus's will"
+    },
+    "description": {
+      "translate": "Craft a lightning rod"
+    }
+  },
+  "criteria": {
+    "has_spruce_log": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:lightning_rod"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

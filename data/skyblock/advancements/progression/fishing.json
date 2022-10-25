@@ -1,0 +1,28 @@
+{
+  "parent": "skyblock:progression/water",
+  "display": {
+    "icon": {
+      "item": "minecraft:fishing_rod"
+    },
+    "title": {
+      "translate": "Fisherman"
+    },
+    "description": {
+      "translate": "Craft a fishing rod"
+    }
+  },
+  "criteria": {
+    "has_spruce_log": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:fishing_rod"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}
