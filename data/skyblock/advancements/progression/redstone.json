@@ -1,0 +1,28 @@
+{
+  "parent": "skyblock:progression/kill_witch",
+  "display": {
+    "icon": {
+      "item": "minecraft:redstone"
+    },
+    "title": {
+      "translate": "Basic automation"
+    },
+    "description": {
+      "translate": "Obtain redstone dust"
+    }
+  },
+  "criteria": {
+    "has_spruce_log": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:redstone"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

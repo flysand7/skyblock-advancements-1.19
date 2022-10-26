@@ -1,0 +1,29 @@
+{
+  "parent": "skyblock:progression/get_down",
+  "display": {
+    "icon": {
+      "item": "minecraft:sculk_catalyst"
+    },
+    "title": {
+      "translate": "Spreading menace"
+    },
+    "description": {
+      "translate": "Kill a Warden for Skulk Catalyst"
+    },
+    "frame": "goal"
+  },
+  "criteria": {
+    "has_cobweb": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:sculk_catalyst"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "parent": "skyblock:progression/grass",
+  "display": {
+    "icon": {
+      "item": "minecraft:emerald"
+    },
+    "title": {
+      "translate": "First money"
+    },
+    "description": {
+      "translate": "Obtain emerald from a fox"
+    }
+  },
+  "criteria": {
+    "has_spruce_log": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:emerald"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "parent": "skyblock:progression/kill_skeleton",
+  "display": {
+    "icon": {
+      "item": "minecraft:wheat"
+    },
+    "title": {
+      "translate": "Bread for life"
+    },
+    "description": {
+      "translate": "Start a wheat farm and get wheat"
+    }
+  },
+  "criteria": {
+    "has_spruce_log": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:wheat"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "parent": "skyblock:progression/kill_witch",
+  "display": {
+    "icon": {
+      "item": "minecraft:glowstone_dust"
+    },
+    "title": {
+      "translate": "Basic Illumination"
+    },
+    "description": {
+      "translate": "Obtain glowstone dust"
+    }
+  },
+  "criteria": {
+    "has_spruce_log": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:glowstone_dust"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

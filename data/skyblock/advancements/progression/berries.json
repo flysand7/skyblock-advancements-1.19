@@ -1,0 +1,28 @@
+{
+  "parent": "skyblock:progression/grass",
+  "display": {
+    "icon": {
+      "item": "minecraft:sweet_berries"
+    },
+    "title": {
+      "translate": "Snatched from the jaws"
+    },
+    "description": {
+      "translate": "Get sweet berries by killing a fox holding it"
+    }
+  },
+  "criteria": {
+    "has_spruce_log": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:copper_ingot"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

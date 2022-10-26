@@ -1,0 +1,25 @@
+{
+  "parent": "skyblock:progression/grass",
+  "display": {
+    "icon": {
+      "item": "minecraft:player_head",
+      "nbt": "{SkullOwner:\"Pork\"}"
+    },
+    "title": {
+      "translate": "Swine Flu"
+    },
+    "description": {
+      "translate": "Breed the first of many Pigs"
+    }
+  },
+  "criteria": {
+    "bred_pigs": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "parent": {
+          "type": "minecraft:pig"
+        }
+      }
+    }
+  }
+}

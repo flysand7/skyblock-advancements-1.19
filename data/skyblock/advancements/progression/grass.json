@@ -1,0 +1,28 @@
+{
+  "parent": "skyblock:progression/get_down",
+  "display": {
+    "icon": {
+      "item": "minecraft:grass_block"
+    },
+    "title": {
+      "translate": "Moving grass"
+    },
+    "description": {
+      "translate": "Trap enderman in a boat and make it pick up the grass block to obtain it"
+    }
+  },
+  "criteria": {
+    "has_spruce_log": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:grass_block"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}
