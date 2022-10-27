@@ -2,8 +2,7 @@
   "parent": "skyblock:progression/grass",
   "display": {
     "icon": {
-      "item": "minecraft:player_head",
-      "nbt": "{SkullOwner:\"Pork\"}"
+      "item": "minecraft:porkchop"
     },
     "title": {
       "translate": "Swine Flu"

@@ -5,7 +5,7 @@
       "item": "minecraft:grass_block"
     },
     "title": {
-      "translate": "Moving grass"
+      "translate": "Touch the grass"
     },
     "description": {
       "translate": "Trap enderman in a boat and make it pick up the grass block to obtain it"
